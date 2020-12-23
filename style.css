@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+}
+/*header start*/
+img{
+    width:60px;
+    height: auto;
+}
+
+header{
+    padding: 5% 10%;
+    background-image: url("pictures/Header_Bannar.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+
+.nav-link{
+    color: white;
+    transition: 0.4s;
+    border-radius: 5px;
+    margin: 10px;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+
+.bannar-container{
+    height: 50vh;
+}
+.bannar-container{
+    font-size: 3.5rem;
+    padding: 10px 20px;
+}
+
+/*header end*/
+/*main start*/
+
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.features-col{
+    border: 2px solid #ff02c0; 
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px black;
+}
+.icon-style{
+    margin: 5px 0;
+    padding: 15px;
+    background-color: #bb0aac;
+    color: white;
+}
+
+.personal-info{
+    background-color:#e8ded2;
+    padding: 5% 10%;
+    box-shadow: 2px 2px 5px black;
+}
+.personal-content{
+    border: 2px solid #bb0aac;
+    border-radius: 5px;
+}
+
+.my-skill{
+    background-color:#e8ded2;
+    padding: 5% 10%;
+    box-shadow: 2px 2px 5px black;
+
+   
+}
+.skill-content{
+    border: 2px solid #bb0aac;
+    border-radius: 5px;
+
+}
+
+/*skill design ends*/
+
+
+</*card design start*/>
+#contact{
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+
+</*card design ends*/>
+
+/* feedback start  */
+#feedback{
+    padding: 5%;
+    background: #5eaaa8;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.feedback-img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+/* feedback end */
+
+footer{
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: black;
+}
+/* footer ends */
+
+@media (max-width:768px){
+    .nav-link{
+        background: rgb(0,0,0,0.7);
+    }
+
+    .banner-container h1{
+        font-size: 2.5rem;
+      
+        
+    }
+    
+}
+
